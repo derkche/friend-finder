@@ -1,18 +1,25 @@
 {
-  "name": "friendfinder",
+  "name": "friend-finder",
   "version": "1.0.0",
-  "description": "Food matching appliaction",
+  "description": "This app matches food to individuals based on compatibilty compiled from a surveys.",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Derek",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derkche/friend-finder.git"
   },
-  "engines": {
-    "node": "5.3.0"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derkche/friend-finder/issues"
+  },
+  "homepage": "https://github.com/derkche/friend-finder#readme"
 }
