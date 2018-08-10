@@ -1,25 +1,18 @@
 {
-  "name": "friend-finder",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "This app matches individuals based on compatibilty compiled from a surveys.",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/derkche/friend-finder.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/derkche/friend-finder/issues"
-  },
-  "homepage": "https://github.com/derkche/friend-finder#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "5.3.0"
   }
 }
